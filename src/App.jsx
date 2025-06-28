@@ -1,12 +1,18 @@
-import SeeAll from "./components/Buttons/SeeAll";
-import Cards from "./components/Cards/Cards";
-import Navbar from "./components/Navbar/Navbar";
 
+import Footer from "./components/Footer/Footer";
+import Navbar from "./components/Navbar/Navbar";
+import img from"./assets/download.png"
+import SearchByName from "./components/SearchByName/SearchByName";
+import JoinUs from "./components/JoinUs/JoinUs";
 export default function App() {
   return (
     <>
+
       <Navbar />
-      <Cards/>
+      <img className="w-full" src={img} alt="" />
+      <SearchByName/>
+      <JoinUs/>
+      <Footer/>
 
     </>
   );
