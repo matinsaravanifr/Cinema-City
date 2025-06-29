@@ -3,7 +3,7 @@ import FormJoin from "./FormJoin";
 
 export default function JoinUs() {
   return (
-    <section className="w-[90%] m-auto h-[400px] flex items-center flex-row-reverse justify-between ">
+    <section className="w-[90%] m-auto h-[400px] flex items-center flex-row-reverse justify-between mt-5 mb-10 ">
       <div className="w-[50%] mr-2">
         <h1 className="text-white font-bold text-right text-2xl mb-3">به جمع ما بپیوندید</h1>
         <p className="text-white text-right">
