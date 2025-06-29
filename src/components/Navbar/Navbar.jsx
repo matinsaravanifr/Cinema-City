@@ -3,7 +3,7 @@ import { FaSearch } from "react-icons/fa";
 import logo from "./../../assets/Frame 289.svg";
 export default function Navbar() {
   return (
-    <header className="relative flex  justify-center">
+    <header className=" relative flex justify-center">
       <nav className="w-[90%] h-[70px] m-auto  flex items-center flex-row-reverse justify-between absolute mt-5 ">
         <figure>
           <img src={logo} alt="" />
