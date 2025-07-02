@@ -9,13 +9,13 @@ import ActorCard from "./components/ActorCards/ActorCard";
 import Home from "./Pages/Home/Home";
 import DownlaodPage from "./Pages/DownlaodPage/DownlaodPage";
 import ActorSlider from "./components/ActorSlider/ActorSlider";
+import ActorInfo from "./components/ActorInfo/ActorInfo";
+import ActorPage from "./Pages/ActorPage/ActorPage";
 export default function App() {
   return (
     <>
-    {/* <Home/> */}
-    <Navbar position="static"/>
-    <ActorCard/>
-    <DownlaodPage/>
+    <ActorPage/>   
+
     </>
   );
 }
