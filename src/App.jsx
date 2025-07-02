@@ -8,10 +8,13 @@ import MovieSliders from "./components/MovieSliders/MovieSliders";
 import ActorCard from "./components/ActorCards/ActorCard";
 import Home from "./Pages/Home/Home";
 import DownlaodPage from "./Pages/DownlaodPage/DownlaodPage";
+import ActorSlider from "./components/ActorSlider/ActorSlider";
 export default function App() {
   return (
     <>
     {/* <Home/> */}
+    <Navbar position="static"/>
+    <ActorCard/>
     <DownlaodPage/>
     </>
   );

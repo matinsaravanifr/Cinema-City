@@ -1,10 +1,10 @@
 import { FaChevronDown } from "react-icons/fa";
 import { FaSearch } from "react-icons/fa";
 import logo from "./../../assets/Frame 289.svg";
-export default function Navbar() {
+export default function Navbar({ position }) {
   return (
-    <header className=" relative flex justify-center">
-      <nav className="w-[90%] h-[70px] m-auto  flex items-center flex-row-reverse justify-between absolute mt-5 ">
+    <header className={` ${position} flex justify-center`}>
+      <nav className={`w-[90%] h-[70px] m-auto flex items-center flex-row-reverse justify-between ${position === "relative" ? "absolute mt-5" : "static mt-0"}`}>
         <figure>
           <img src={logo} alt="" />
         </figure>

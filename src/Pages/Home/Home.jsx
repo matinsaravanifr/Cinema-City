@@ -9,7 +9,7 @@ import ActorCard from "./../../components/ActorCards/ActorCard";
 export default function Home() {
   return (
     <>
-      <Navbar />
+      <Navbar position="relative" />
       <img className="w-full" src={img} alt="" />
       <SearchByName />
       <MovieSliders />
