@@ -39,13 +39,14 @@ export default function ActorInfo() {
           </p>
         </div>
         <div className="flex items-center justify-around flex-row-reverse mt-5">
-          <button className="text-white w-50 border-2 p-2 rounded-[5px] bg-red-400 border-red-400">:وضعیت</button>
+          <button className="text-white w-50 border-2 p-2 rounded-[5px] bg-red-400 border-red-400">
+            :وضعیت
+          </button>
           <button className="flex items-center justify-around w-50 border-[1px] rounded-[8px] p-2 border-red-400 text-white cursor-pointer">
-            <FaRegThumbsUp/>
+            <FaRegThumbsUp />
             این بازیگر را پسندیدم
           </button>
           <button className="flex items-center justify-around w-50  border-[1px] rounded-[5px] p-2 border-red-400 text-white cursor-pointer ">
-
             <FaRegThumbsDown />
             این بازیگر را نپسندیدم
           </button>
